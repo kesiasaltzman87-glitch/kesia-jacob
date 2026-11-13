@@ -1,2 +1,2 @@
-// Interações do menu. Edite apenas se quiser alterar o comportamento.
+// Interações do menu. Mantém o comportamento original.
 document.querySelectorAll('.navlinks a').forEach(a=>a.addEventListener('click',()=>document.querySelector('.navlinks').classList.remove('open')));
